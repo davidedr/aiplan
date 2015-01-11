@@ -221,7 +221,7 @@ if plan == False:
     print "No plan found to solve problem."
     sys.exit(-1)    
 
-print "Solution found. Plan consists of %d steps:" % (len(plan))
+print "Solution found. Plan consists of %d actions:" % (len(plan))
 print plan
 print 
 print
